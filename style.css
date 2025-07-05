@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f9;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background: #007bff;
+  color: white;
+}
+.task-col {
+  text-align: left;
+  font-weight: bold;
+}
+.checkbox-group {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+label {
+  font-size: 12px;
+}
