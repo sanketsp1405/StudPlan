@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <th>Task</th>
     <th>Target Frequency</th>
     <th>Daily Time</th>
-    ${[...Array(12)].map((_, i) => `<th>${i + 5}</th>`).join('')}
+    ${[...Array(12)].map((_, i) => `<th>${i + 7}</th>`).join('')}
   `;
 
   // Task data
